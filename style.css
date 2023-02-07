@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+#display{
+    display: grid;
+    place-items: center;
+}
+
+#display-container{
+    display: grid;
+    place-items: center;
+}
+
+#art-work-image{
+    height: 80vh;
+}
+
+#art-work-heading{
+    font-size: 4vmin;
+}
+
+#art-work-author{
+    font-size: 2vmin;
+}
+
+nav {
+    display: grid;
+    place-items: center;
+   
+    margin-bottom: 1vmin;
+   
+}
+
+#hero{
+    font-size: 5vmin;
+    text-decoration: underline;
+    margin-bottom: 3vmin;
+
+    transition: .25s;
+}
+
+#hero:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
